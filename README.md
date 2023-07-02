@@ -2,7 +2,7 @@
 A library/cli written in python to use with the Rainbow Studios .pak files found in their games. Please report any issues found, or feel free to submit a pull request.
 
 ## Installation
-`pip install git+https://github.com/bananapizzuh/paklib.git`
+`pip install git+https://github.com/bananapizzuh/pak-tool.git`
 
 ## Usage
 
