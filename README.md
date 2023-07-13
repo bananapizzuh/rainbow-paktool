@@ -4,7 +4,7 @@ A library and tool for dealing with rainbow studios' .pak files written in pytho
 `pip install git+https://github.com/bananapizzuh/paklib.git`
 # Usage  
 ## CLI
-To compile: `paklib-tool compile [foo] -o [bar.pak]` or `paklib-tool compile [foo]`
+To compile: `paklib-tool compile [foo] -o [bar.pak]` or `paklib-tool compile [foo]`  
 To decompile: `paklib-tool decompile [foo.pak] -o [bar]` or `paklib-tool decompile [foo.pak]`  
 For either: `paklib-tool [foo.pak]` or `paklib-tool [foo]`  
 ## Library  
