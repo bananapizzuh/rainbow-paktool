@@ -10,5 +10,5 @@ For either: `paklib-tool [foo.pak]` or `paklib-tool [foo]`
 ## Library  
 TODO  
 
-#Contribution  
+# Contribution  
 Feel free to contribute or report any errors you come across.  
