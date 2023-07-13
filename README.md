@@ -1,25 +1,14 @@
-# PAKLIB
-A library/cli written in python to use with the Rainbow Studios .pak files found in their games. Please report any issues found, or feel free to submit a pull request.
+# Paklib
+A library and tool for dealing with rainbow studios' .pak files written in python/cython. Current version 0.1.0
+# Installation
+`pip install git+https://github.com/bananapizzuh/paklib.git`
+# Usage  
+## CLI
+To compile: `paklib-tool compile [foo] -o [bar.pak]` or `paklib-tool compile [foo]`
+To decompile: `paklib-tool decompile [foo.pak] -o [bar]` or `paklib-tool decompile [foo.pak]`  
+For either: `paklib-tool [foo.pak]` or `paklib-tool [foo]`  
+## Library  
+TODO  
 
-## Installation
-`pip install git+https://github.com/bananapizzuh/pak-tool.git`
-
-## Usage
-
-### Cli
-`pak-cli decompile <input_file.pak> <output_directory>` 
-or
-`pak-cli compile <directory_path> <output_file.pak>`
-
-### Library
-```py 
-import paklib
-
-paklib.decompile_file('input.pak', 'path/to/output_directory')
-```
-or
-```py
-import paklib
-
-paklib.compile_directory('path/to/directory', 'output.pak')
-```
+#Contribution  
+Feel free to contribute or report any errors you come across.  

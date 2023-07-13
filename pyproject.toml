@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "paklib"
+version = "0.1.0"
+description = "A library/tool to help deal with rainbow studios' .pak files."
+authors = ["bananapizzuh"]
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+rich = "^13"
+
+[tool.poetry.dev-dependencies]
+# Add any development dependencies your library may require
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+paklib-tool = "paklib.paklibtool:main"
